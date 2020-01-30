@@ -4,14 +4,16 @@ import { FormsModule } from '@angular/forms';
 
 import { EventsAppComponent } from './events-app.component';
 import { HelloComponent } from './hello.component';
-import { EventsListComponent } from './events/events-list.component'
+import { EventsListComponent } from './events/events-list.component';
+import { EventThumbnailComponent } from './events/event-thumbnail.component';
 
 @NgModule({
   imports:      [ BrowserModule, FormsModule ],
   declarations: [ 
     EventsAppComponent,
     HelloComponent,
-    EventsListComponent
+    EventsListComponent,
+    EventThumbnailComponent
   ],
   bootstrap:    [ EventsAppComponent ]
 })
